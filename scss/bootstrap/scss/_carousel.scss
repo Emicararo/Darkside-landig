@@ -30,7 +30,7 @@
   position: relative;
   display: none;
   float: left;
-  width: 100%;
+  width: 25rem;
   margin-right: -100%;
   backface-visibility: hidden;
   @include transition($carousel-transition);

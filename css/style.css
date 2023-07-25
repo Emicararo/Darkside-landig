@@ -194,6 +194,12 @@ figure {
 img {
   vertical-align: middle;
   border-style: none;
+  transition: 1.5s;
+}
+
+img:hover{
+  transition: 1.5s;
+  transform: rotate(360deg);
 }
 
 svg {
@@ -528,7 +534,8 @@ mark,
 
 .img-fluid {
   max-width: 100%;
-  height: auto;
+  height: 25rem;
+  object-fit: cover;
 }
 
 .img-thumbnail {
@@ -6095,7 +6102,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #009CFF !important;
+  background-color: red !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
